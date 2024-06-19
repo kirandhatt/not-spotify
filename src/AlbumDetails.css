@@ -1,0 +1,38 @@
+/* components/AlbumDetails/AlbumDetails.scss */
+.album-details {
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.album-details__art {
+  margin-right: 20px;
+}
+.album-details__art img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+.album-details__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.album-details__title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.album-details__artist {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.album-details__tracks {
+  list-style: none;
+  padding: 0;
+}
+.album-details__tracks__track {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 5px;
+}
